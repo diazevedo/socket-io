@@ -16,7 +16,6 @@ app.get('/messages', (requisition, response) => {
 
 app.post('/messages', (requisition, response) => {
     messages.push(requisition.body);
-    console.log(requisition.body); 
     io.emit('message', requisition.body);
     response.sendStatus(200); 
 })
