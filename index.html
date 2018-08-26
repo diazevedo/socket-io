@@ -49,8 +49,6 @@
         socket.on('message', addMessage)
 
         function addMessage(message){
-            console.log('addMessage');
-            console.log(message);
             $('#messages').append(`<h4> ${message.name} </h4> <p> ${message.message} </p>`);
         }
 
