@@ -4,17 +4,22 @@
   "description": "Socket",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jasmine",
+    "start": "node server.js",
+    "stop": "node server.js"
   },
   "author": "Diego Azevedo",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "mongoose": "^5.2.9",
     "socket.io": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "request": "^2.88.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diazevedo/socket-io.git"
