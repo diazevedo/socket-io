@@ -1,3 +1,2 @@
 # socket-io
-Chat created using Socket.io
-This is chat. The inspiration comes from the course Learning Node.js (Lynda.com)
+Chat created using Socket.io The inspiration comes from the course Learning Node.js (Lynda.com)
